@@ -1,4 +1,30 @@
-# Byte-compiled / optimized / DLL files
+
+
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Environment variables
+.env
+.env.local
+
+# Binaries
+bin/
+
+# Vendor
+vendor/# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
