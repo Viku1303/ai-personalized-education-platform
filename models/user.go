@@ -1,0 +1,17 @@
+package models
+
+import (
+	"time"
+)
+
+type User struct {
+	ID        uint      `json:"id" gorm:"primaryKey"`
+	Email     string    `json:"email" gorm:"unique;not null"`
+	Username  string    `json:"username" gorm:"unique;not null"`
+	Password  string    `json:"-" gorm:"not null"`
+	FirstName string    `json:"first_name"`
+	LastName  string    `json:"last_name"`
+	Role      string    `json:"role" gorm:"default:'student'"`
+	CreatedAt time.Time `json:"created_at"`
+	UpdatedAt time.Time `json:"updated_at"`
+}
