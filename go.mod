@@ -1,5 +1,4 @@
-module github.com/yourusername/ai-personalized-education-platform-go
-
+module github.com/Viku1303/ai-personalized-education-platform
 go 1.25.4
 
 require github.com/gin-gonic/gin v1.11.0
