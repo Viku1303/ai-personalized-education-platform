@@ -5,8 +5,8 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-	"github.com/yourusername/ai-personalized-education-platform-go/api"
-	"github.com/yourusername/ai-personalized-education-platform-go/database"
+	"github.com/Viku1303/ai-personalized-education-platform/api"
+	"github.com/Viku1303/ai-personalized-education-platform/database"
 )
 
 func main() {
